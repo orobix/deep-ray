@@ -306,14 +306,14 @@ fieldset[disabled] .btn-primary.active {
 
 .btn-xl {
     padding: 20px 40px;
-    border-color: #B5D68D !important;
+    border-color: #D3ADD2 !important;
     border-radius: 3px;
     text-transform: uppercase;
     font-family: 'DIN-Light';
     font-size: 20px !important;
     font-weight: 700;
     color: #fff;
-    background-color: #B5D68D !important;
+    background-color: #D3ADD2 !important;
 }
 
 .btn-xl:hover,
@@ -467,14 +467,16 @@ header {
     text-align: center;
     /*color: #fff;*/
     color: black;
-    background-attachment: scroll;
-    background-image: url(../img/background.jpg);
-    /*background-position: center bottom;*/
+    background-image: url(../img/background.png);
+    background-position: center center;
     background-repeat: no-repeat;
-    -webkit-background-size: cover;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #FFFFFF;
+    /*-webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
-    -o-background-size: cover;
+    -o-background-size: cover;*/
 }
 
 header .intro-text {
